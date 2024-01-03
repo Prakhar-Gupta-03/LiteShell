@@ -1,0 +1,23 @@
+make main
+make run
+./shell
+help
+date -R
+echo -n hello_world
+mkdir --help
+rm --help
+date --help &t
+date -u
+date &t
+date
+mkdir t1 t2 t3 -v &t
+mkdir t5/t6 -v -p
+mkdir t5/t4 &t -v
+ls -i -a
+cd t5
+ls -l 
+cd ..
+cat -n help_internals/help.txt
+pwd
+exit
+make clean

@@ -1,0 +1,22 @@
+make main
+make run
+./shell
+help
+date -R &t
+echo -e hello\nworld
+pwd
+cd external_commands
+ls -l -a &t
+pwd
+cd ..
+pwd
+ls -i
+cat -n -E Description.txt
+mkdir -v -p t1/t2
+cd t1
+ls -l -a
+cd ..
+rm -v file.txt
+rm --help &t
+exit
+make clean
